@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704609167213",
+    "firebase_url": "https://samper-tour-and-travel-default-rtdb.firebaseio.com",
+    "project_id": "samper-tour-and-travel",
+    "storage_bucket": "samper-tour-and-travel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704609167213:android:9ee2a613d1a0f868f71c64",
+        "android_client_info": {
+          "package_name": "com.example.sampertravelntoursapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704609167213-uf6a02g4t389tn8qn3t904u9qjfeg6i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdyiO1diV9S7oxpz3F4mOGPmWrnppf9Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704609167213-uf6a02g4t389tn8qn3t904u9qjfeg6i0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
