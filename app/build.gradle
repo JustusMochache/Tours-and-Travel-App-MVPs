@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.sampertravelntoursapp"
-        minSdkVersion 26
+        minSdkVersion 25
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -40,29 +40,33 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'android.arch.lifecycle:extensions:1.1.1'
-    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
-    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.preference:preference:1.1.1'
 
     implementation "androidx.cardview:cardview:1.0.0"
 
-    implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc03"
 
-    implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    implementation "androidx.recyclerview:recyclerview:1.2.1"
     // For control over item selection of both touch and mouse driven selection
-    implementation "androidx.recyclerview:recyclerview-selection:1.1.0-rc03"
+    implementation "androidx.recyclerview:recyclerview-selection:1.2.0-alpha01"
+
+// Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:28.1.0')
+
+    // Declare the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-auth'
 
 
-
-
-    implementation 'com.google.android.gms:play-services-maps:16.0.0'
-    implementation 'com.google.android.gms:play-services-location:16.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
 
     implementation 'com.github.hotchemi:android-rate:1.0.1'
 
 
-    implementation 'com.google.android.gms:play-services-auth:17.0.0'
 
-
+//
     implementation 'com.google.firebase:firebase-auth:21.0.1'
 
     //FIREBASE
@@ -72,7 +76,7 @@ dependencies {
 
     implementation 'com.google.firebase:firebase-core:19.0.0'
 
-    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
 
     implementation "androidx.gridlayout:gridlayout:1.0.0"
 
@@ -82,9 +86,16 @@ dependencies {
 
     implementation 'com.firebaseui:firebase-ui-auth:6.3.0'
 
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:28.1.0')
+
+    // Declare the dependency for the Firebase Authentication library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
 
 
-    implementation 'com.applandeo:material-calendar-view:1.0.1'
+
+
+//    implementation 'com.applandeo:material-calendar-view:1.0.1'
 
     implementation platform('com.google.firebase:firebase-bom:28.1.0')
 
@@ -93,4 +104,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
 }
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'

@@ -56,7 +56,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private void registerUser(){
         String email=editTextEmail.getText().toString().trim();
         String password=editTextPassword.getText().toString().trim();
-        String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+        String emailPattern = "[0]+[0-9]+[0-9]+";
 
         if(TextUtils.isEmpty(email)){
             //email is empty

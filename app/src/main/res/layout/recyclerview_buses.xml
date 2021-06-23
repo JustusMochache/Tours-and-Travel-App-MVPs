@@ -11,9 +11,9 @@
 
         <ImageView
             android:id="@+id/busImage"
-            android:layout_width="75dp"
-           android:layout_marginLeft="25dp"
-            android:layout_height="89dp"
+            android:layout_width="74dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="2dp"
             app:srcCompat="@drawable/car" />
 
       <LinearLayout
@@ -66,8 +66,8 @@
           android:id="@+id/text_view_condition"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-              android:textSize="14sp
-"
+              android:textSize="14sp"
+
           android:text="Bus Condition: A/C Sleepers"
           android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 

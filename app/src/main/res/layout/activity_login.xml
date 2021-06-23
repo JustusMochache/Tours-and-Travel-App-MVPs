@@ -48,7 +48,7 @@
             android:background="@drawable/butcolor"
             android:ems="10"
             android:fontFamily="serif"
-            android:hint="Enter your email"
+            android:hint="Enter phone Number"
             android:inputType="textEmailAddress"
             android:textAlignment="center"
 
@@ -67,7 +67,7 @@
             android:background="@drawable/butcolor"
             android:ems="10"
             android:fontFamily="serif"
-            android:hint="Enter your password"
+            android:hint="passwrord/pin"
             android:inputType="textPassword"
             android:textAlignment="center"
             android:textSize="15sp"
